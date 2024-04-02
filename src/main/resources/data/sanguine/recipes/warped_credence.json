@@ -1,0 +1,50 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "sanguine:credence",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "gCg",
+        "gCg"
+    ],
+    "key": {
+        "#": { "item": "minecraft:quartz" },
+        "g": { "item": "minecraft:gold_ingot" },
+        "C": { "item": "minecraft:warped_planks" }
+    },
+    "result": {
+        "item": "minecraft:barrel",
+        "data": {
+            "BlockEntityTag": {
+                "id": "minecraft:barrel",
+                "Items": [
+                    {
+                        "id": "minecraft:barrier",
+                        "Count": 1,
+                        "tag": {
+                            "nucleus": {
+                                "block": {
+                                    "placed_block": 1,
+                                    "id": "sanguine:credence",
+                                    "sanguine": {
+                                        "credence_type": "warped"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "CustomModelData": 8361003,
+            "sanguine": {
+                "id": "credence"
+            },
+            "display": {
+                "Name": "{\"translate\":\"block.sanguine.warped_credence\",\"italic\":false}",
+                "Lore": [
+                    "{\"translate\":\"sanguine.tooltip\",\"font\":\"sanguine:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.sanguine\",\"font\":\"minecraft:default\",\"color\":\"#880f0f\",\"italic\":true}]}"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "CC",
+        "##",
+        "##"
+    ],
+    "key": {
+        "#": { "tag": "minecraft:planks" },
+        "C": { "item": "minecraft:copper_ingot" }
+    },
+    "result": {
+        "item": "minecraft:barrel",
+        "data": {
+            "RepairCost": 0,
+            "BlockEntityTag": {
+                "id": "minecraft:dropper",
+                "Items": [
+                    {
+                        "id": "minecraft:barrier",
+                        "Count": 1,
+                        "tag": {
+                            "nucleus": {
+                                "block": {
+                                    "placed_block": 1,
+                                    "id": "jolted:assembly_table"
+                                }
+                            }
+                        }
+                    }
+                ]
+            },
+            "CustomModelData": 8362000,
+            "jolted": {
+                "id": "assembly_table"
+            },
+            "display": {
+                "Name": "{\"translate\":\"block.jolted.assembly_table\",\"italic\":false}",
+                "Lore": [
+                    "{\"translate\":\"jolted.tooltip\",\"font\":\"jolted:tooltip\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"pack.jolted\",\"font\":\"minecraft:default\",\"color\":\"#ffae17\",\"italic\":true}]}"
+                ]
+            }
+        }
+    }
+}

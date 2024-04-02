@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "regisseur",
+	"version": "${version}",
+	"name": "Regisseur",
+	"description": "Companion mod for The Theatre. Requires Nevermore!",
+	"authors": [ "Sindercube" ],
+	"contact": {
+		"homepage": "https://modrinth.com/modpack/the-theatre",
+		"sources": "https://github.com/Sindercube/The-Theatre"
+	},
+	"license": "Insomniacs",
+
+	"entrypoints": {
+		"main": [
+			"com.sindercube.regisseur.Regisseur"
+		],
+		"server": [
+			"com.sindercube.regisseur.datagen.RegisseurServerDatagen"
+		],
+		"fabric-datagen": [
+			"com.sindercube.regisseur.datagen.RegisseurDatagen"
+		]
+	},
+	"mixins": [ "regisseur.mixins.json" ],
+	"accessWidener": "regisseur.accesswidener",
+	"depends": {
+		"mr_nevermore": "${nevermore_version}",
+		"fabric-api": "*"
+	}
+}
