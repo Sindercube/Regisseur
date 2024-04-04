@@ -25,7 +25,10 @@
 	"mixins": [ "regisseur.mixins.json" ],
 	"accessWidener": "regisseur.accesswidener",
 	"depends": {
-		"mr_nevermore": "${nevermore_version}",
 		"fabric-api": "*"
+	},
+	"suggests": {
+		"mr_nevermore": "${nevermore_version}",
+		"creativemenutweaks": "${creative_menu_tweaks_version}"
 	}
 }
