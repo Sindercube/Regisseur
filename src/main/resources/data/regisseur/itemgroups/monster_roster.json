@@ -1,0 +1,22 @@
+{
+	"id": "monster_roster:default",
+	"name": "itemGroup.monster_roster.default",
+	"icon": {
+		"id": "minecraft:warped_fungus_on_a_stick",
+		"Count": 1,
+		"tag": { "CustomModelData": 8365000 }
+	},
+	"entries": [],
+	"loot_tables": [
+		"monster_roster:items/armantis_scythe/ghost",
+		"monster_roster:items/armantis_scythe/goldleaf",
+		"monster_roster:items/armantis_scythe/monarch",
+		"monster_roster:items/armantis_scythe/mourning",
+		"monster_roster:items/armantis_scythe/orchid",
+		"monster_roster:items/armantis_scythe/peacock",
+		"monster_roster:items/armantis_scythe/wild",
+
+		"monster_roster:items/grub",
+		"monster_roster:items/burnt_grub"
+	]
+}

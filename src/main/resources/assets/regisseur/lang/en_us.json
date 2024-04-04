@@ -1,3 +1,8 @@
 {
-	"pack.source.global": "global"
+	"pack.source.global": "global",
+
+	"itemGroup.manic.default": "Manic",
+	"itemGroup.sanguine.default": "Sanguine",
+	"itemGroup.jolted.default": "Jolted",
+	"itemGroup.monster_roster.default": "Monster Roster"
 }

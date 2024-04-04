@@ -1,0 +1,42 @@
+{
+	"id": "jolted:default",
+	"name": "itemGroup.jolted.default",
+	"icon": {
+		"id": "minecraft:structure_block",
+		"Count": 1,
+		"tag": { "CustomModelData": 8362002 }
+	},
+	"entries": [],
+	"loot_tables": [
+		"jolted:items/assembly_table",
+		"jolted:items/alloy_forge",
+		"jolted:items/grinding_mill",
+
+		"jolted:items/liquid_tank",
+		"jolted:items/speaker",
+		"jolted:items/wrecker",
+		"jolted:items/coin_press",
+
+		"jolted:items/iron_pistol",
+		"jolted:items/anirrum_pistol",
+		"jolted:items/golden_revolver",
+		"jolted:items/cunife_shotgun",
+		"jolted:items/pigsteel_rifle",
+
+		"jolted:items/iron_bullet",
+
+		"jolted:items/cunife_compass",
+
+		"jolted:items/rose_gold_sword",
+		"jolted:items/rose_gold_shovel",
+		"jolted:items/rose_gold_pickaxe",
+		"jolted:items/rose_gold_axe",
+		"jolted:items/rose_gold_hoe",
+
+		"jolted:items/cunife_ingot",
+		"jolted:items/rose_gold_ingot",
+		"jolted:items/electrum_ingot",
+		"jolted:items/pigsteel_ingot",
+		"jolted:items/rubrum_ingot"
+	]
+}
