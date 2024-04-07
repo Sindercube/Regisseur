@@ -7,9 +7,6 @@ import net.minecraft.client.MinecraftClient;
 public class RegisseurDatagen implements DataGeneratorEntrypoint {
 
 	@Override
-	public void onInitializeDataGenerator(FabricDataGenerator generator) {
-		System.out.println(MinecraftClient.getInstance().getServer());
-		System.out.println(RegisseurServerDatagen.SERVER_INSTANCE);
-	}
+	public void onInitializeDataGenerator(FabricDataGenerator generator) {}
 
 }
