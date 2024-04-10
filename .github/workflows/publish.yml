@@ -25,7 +25,7 @@ jobs:
           cache: "gradle"
 
       - name: Change Version
-        run: sed -i 's/mod_version=*/mod_version=${{ github.event.release.tag_name }}/g' gradle.properties
+        run: sed -i 's/mod_version=.*/mod_version=${{ github.event.release.tag_name }}/g' gradle.properties
 
       - name: Build
         run: ./gradlew clean build
@@ -39,7 +39,7 @@ jobs:
           github-tag: "${{ github.event.release.tag_name }}"
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
-          name: "Iconic v${{ github.event.release.tag_name }}"
+          name: "Regisseur v${{ github.event.release.tag_name }}"
           version: "${{ github.event.release.tag_name }}"
           version-type: "${{ env.RELEASE_TYPE }}"
           changelog: "${{ github.event.release.body }}"
